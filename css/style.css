@@ -1,35 +1,32 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
-  padding: 0px;
+  text-decoration: none;
 }
 
-header {
+.navegacion {
   background-color: darkcyan;
-  height: 60px;
-  color: white;
-  font-size: 17px;
-  font-weight: 600;
+  height:max(60px, 100%);
+  padding: 5px 50px;
   text-align: center;
-  padding-top: 35px;
+}
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.nombre a{
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
 }
 
-.header-nombre {
-  font-size: 25px;
+li{
+  list-style: none;
   display: inline-block;
-  margin-right: 300px;
 }
-.header-portfolio {
-  display: inline-block;
-  margin: 0px 20px;
-}
-.header-about {
-  display: inline-block;
-  margin: 0px 20px;
-}
-.header-contact {
-  display: inline-block;
-  margin: 0px 20px;
+li a {
+  color: white;
 }
 
 .mi-nombre {
@@ -38,7 +35,6 @@ header {
   padding: 20px 0px;
   color: white;
 }
-
 .linea {
   display: inline-block;
   background-color: white;
@@ -52,9 +48,9 @@ p.star {
 }
 
 .mi-nombre .foto {
-  background-color: ;
-  width: 300px;
+  width:min(300px, 100%); 
   height: auto;
+  margin-top: 10px;
 }
 
 h1 {
@@ -66,7 +62,7 @@ h1 {
   margin-top: 10px;
   margin-bottom: 30px;
   font-weight: 600;
-  color: darkcyan;
+  color: darkslategrey;
 }
 
 .portfolio {
@@ -88,7 +84,7 @@ h1 {
   width: 300px;
 }
 
-footer {
+.sobre-mi {
   padding: 20px 50px;
   background-color: darkcyan;
   text-align: center;
@@ -107,4 +103,11 @@ button {
   margin-top: 20px;
   border-radius: 5px;
   font-size: 15px;
+}
+
+footer {
+  text-align: center;
+  color: white ;
+  background-color:darkslategray;
+  padding: 10px;
 }

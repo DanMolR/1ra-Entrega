@@ -10,16 +10,22 @@
 <body>
 
   <header>
-    <span class="header-nombre">DANIEL MOLINA</span>
-    <Span class="header-portfolio">PORTFOLIO</Span>
-    <span class="header-about">SOBRE MÍ</span>
-    <span class="header-contact">CONTACTO</span>
-
-   </header>
-
+    <nav class="navegacion">
+      <div class="navbar">
+        <div class="nombre"><a href="">DANIEL MOLINA</a></div>
+        <div>
+          <ul>
+            <li><a href="#">PORTAFOLIO</a></li>
+            <li><a href="#">SOBRE MI</a></li>
+            <li><a href="#">CONTACTO</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
   <main>
 
-    <article class="mi-nombre">
+    <section class="mi-nombre">
       <img class="foto" src="img/Profile round.png" alt="">
       <h1>DANIEL MOLINA RUBIO</h1>  
       <div class="estrella-linea">
@@ -28,9 +34,9 @@
         <figure class="linea"></figure>
       </div>
       <p class="descripcion">Desarrollador, front-end, poliglota y foodie</p>
-    </article>
+    </section>
 
-    <article class="portfolio">
+    <section class="portfolio">
       <h2>PORTFOLIO</h2>
       <div>
         <img class="project-photos" src="img/lemon-pie.jpeg" alt="">
@@ -56,19 +62,21 @@
         <img class="project-photos" src="img/gameshop.jpeg" alt="">
         <p>Game Shop</p>
       </div>
-    </article>
-    
+    </section>
+    <section class="sobre-mi">
+      <h2>SOBRE MI</h2>
+      <div class="estrella-linea">
+        <figure class="linea"></figure>
+        <span class="star">★</span>
+        <figure class="linea"></figure>
+      </div>
+      <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus sit tenetur non fugit culpa! Nostrum nihil, quo quasi fuga minus dolorem necessitatibus odio praesentium veritatis amet optio provident nam voluptatibus.</p>
+      <button>Descargar CV</button>
+    </section>
   </main>
 
   <footer>
-    <h2>SOBRE MI</h2>
-    <div class="estrella-linea">
-      <figure class="linea"></figure>
-      <span class="star">★</span>
-      <figure class="linea"></figure>
-    </div>
-    <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus sit tenetur non fugit culpa! Nostrum nihil, quo quasi fuga minus dolorem necessitatibus odio praesentium veritatis amet optio provident nam voluptatibus.</p>
-    <button>Descargar CV</button>
+    <p>Copyright © - Mi Sitio 2024</p>
   </footer>
 
 </body>
